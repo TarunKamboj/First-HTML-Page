@@ -8,7 +8,11 @@ myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/firefox-icon.png') {
       myImage.setAttribute ('src','images/firefox2.png');
+<<<<<<< HEAD
       myHeading.textContent = 'Google is cooool';
+=======
+      myHeading.textContent = 'Google is coooll';
+>>>>>>> bd86b5bab058d063336c7a2a074cfa34d2da832f
     } else {
       myImage.setAttribute ('src','images/firefox-icon.png');
       myHeading.textContent = 'Mozilla is coool';

@@ -11,7 +11,7 @@ myImage.onclick = function() {
       myHeading.textContent = 'Google is cool';
     } else {
       myImage.setAttribute ('src','images/firefox-icon.png');
-      myHeading.textContent = 'Mozilla is cool';
+      myHeading.textContent = 'Mozilla is coool';
     }
 }
 
